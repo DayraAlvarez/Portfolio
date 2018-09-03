@@ -25,6 +25,13 @@
     box-shadow: -5px 2px 12px black;
 }
 
+#logo {
+    width: 7vh;
+    padding-top: 3px;
+    float: left;
+    margin-left: 10px;
+}
+
 .brand {
     color:white;
     float: left;
@@ -93,7 +100,7 @@ li:hover {
     -webkit-animation-direction: alternate;
     /* Standard syntax */
     animation-name: example;
-    animation-duration: 4.5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: infinite;
