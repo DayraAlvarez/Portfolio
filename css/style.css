@@ -42,7 +42,6 @@
 }
 
 .burger-menu {
-    margin-top: 15px;
     margin-right: 15px;
     float: right;
     color: white;
@@ -73,6 +72,10 @@ li:hover {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#menu {
+    padding: 16px 17px;
 }
 
 /*Ejemplo w3 schools*/
