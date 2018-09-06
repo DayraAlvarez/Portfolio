@@ -162,7 +162,21 @@ li:hover {
 #aboutMe {
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
 }
+
+.aboutFirst {
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+.aboutText {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
 
 /*Work*/
 .projectImg {
@@ -170,6 +184,24 @@ li:hover {
 }
 
 /*Contact*/
+#contactSection {
+    background-color: gray;
+    color: white;
+}
+
+#contactHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+#contactForm {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    width: 100%;
+}
+
 .alert {
     text-align: center;
     padding: 10px;
@@ -179,13 +211,32 @@ li:hover {
     display: none;
 }
 
+#name {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 100%;
+}
 
 /*Footer*/
  footer {
     background: rgba(0, 0, 0, 0.9);
     color: white;
+    font-size: 2vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 12px;
+    height: 6vh;
  }

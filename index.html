@@ -41,15 +41,12 @@
   <!--About me-->
   <section id="aboutMe" class="container-fluid">
     <div class="row">
-      <div class="col-6">
-        <img src="assets/dummie.jpg" alt="">
-      </div>
-      <div class"col-6">
-        <p id="aboutText">Having an Industrial Design degree, being a passionate of illustration and a technology enthusiastic, 
-            i found the way to make the things i love the most to converge in unique and creative websites. 
-            What i enjoy about my job is trying to find the best creative solutions, concepts and elements
-            to add an special and unique value to every project, looking forward to bring the best experience to users.   
-            When you love what you do, you give the best of yourself!</p>
+      <div class"col-12">
+        <p class="aboutFirst">  Having an Industrial Design degree, being a passionate of illustration and a technology enthusiastic, 
+            i found the way to make the things i love the most to converge in unique and creative websites.
+        <p class="aboutText">  What i enjoy about my job is trying to find the best creative solutions, concepts and elements
+            to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
+        <p class="aboutText">When you love what you do, you give the best of yourself!</p>  
       </div>
       <br>
     </div>
@@ -79,25 +76,20 @@
     </div>
   </section>
   <!--Contact-->
-  <section class="container">
-    <div class="row">
-      <div class="col-12">
-         <p>Dayra Alvarez</p>
-         <p>+052 044 33 1964 2981</p>
-         <p>Guadalajara, Jalisco. Mexico</p>
-         <p>dayra.g.alvarez@gmail.com</p>
-      </div>
-    </div>
+  <section class="container-fluid" id="contactSection">
+
     <!--Contact form-->
     <div class="row">
-      <h3>Email me!</h3>
-      <div class="alert">Your message has been sent</div>
-      <form class="col-6" id="contactForm" action="">
-        <input id="name" type="text" placeholder="Name" required>
-        <input id="email" type="email" placeholder="Email" required>
-        <textarea id="message" name="" rows="5">Message</textarea>
-        <button type="submit">Submit</button>
-      </form>
+      <div class="col-6">
+        <p id="contactHeader">Contact me:</p>
+        <div class="alert">Your message has been sent</div>
+        <form class="col-6" id="contactForm" action="">
+          <input id="name" onfocus="this.value=''" type="text" value="Name" required>
+          <input id="email" onfocus="this.value=''" type="email" value="Email" required>
+          <textarea id="message" onfocus="this.value=''"name="" rows="5">Message</textarea>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
       <div class="col-3">
         <i class="fab fa-linkedin"></i>
         <i class="fab fa-github"></i>
@@ -106,7 +98,7 @@
         <i class="fab fa-medium"></i>
       </div>
       <div class="col-3">
-        <p>Download Resume</p><i class="fas fa-download"></i>  
+        <button id="downloadButton">Download Resume</button>
       </div>
     </div>
   </section>
@@ -115,8 +107,18 @@
     <p>Dayra Alvarez Portfolio 2018</p>
   </footer>
 </body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
 crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </html>
+
+<!--    <div class="row">
+      <div class="col-12">
+         <p>Dayra Alvarez</p>
+         <p>+052 044 33 1964 2981</p>
+         <p>Guadalajara, Jalisco. Mexico</p>
+         <p>dayra.g.alvarez@gmail.com</p>
+      </div>
+    </div>-->

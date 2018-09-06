@@ -15,7 +15,7 @@ var config = {
     messagingSenderId: "352703885079"
   };
   firebase.initializeApp(config);
-
+ 
 //Reference messages collection
 var messagesRef = firebase.database().ref('messages');
 
@@ -44,7 +44,6 @@ setTimeout(function(){
 
 //Clear form
 document.getElementById('contactForm').reset();
-
 }
 
 //Function to get form values
