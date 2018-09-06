@@ -185,21 +185,28 @@ li:hover {
 
 /*Contact*/
 #contactSection {
-    background-color: gray;
+    background: linear-gradient(to top left, #ff6699 0%, #660033 100%);;
     color: white;
 }
 
 #contactHeader {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 0%;
+    margin-bottom: 6%;
     font-size: 18px;
 }
 
 #contactForm {
-    background: rgba(0, 0, 0, 0.3);
     padding: 0;
     width: 100%;
+}
+
+#leftSide {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+input {
+    height: 10px;;
 }
 
 .alert {
@@ -213,21 +220,22 @@ li:hover {
 
 #name {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 #email {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 #message {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 #submit {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 /*Footer*/
