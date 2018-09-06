@@ -43,6 +43,7 @@
   <!--About me-->
   <section id="aboutMe" class="container-fluid">
     <div class="row">
+      <h1 align="center" class="sectionHeader">About me</h1>
       <div class"col-12" id="aboutMargin">
         <div id="aboutSquare">
           <p class="aboutFirst">  Having an Industrial Design degree, being a passionate of illustration and a technology enthusiastic, 
@@ -52,22 +53,37 @@
           <p class="aboutText">When you love what you do, you give the best of yourself!</p>  
         </div>
         <br>
-        <div id="technology">
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-git"></i>
-            <i class="fab fa-node-js"></i>
-            <i class="fab fa-npm"></i>
-            <i class="fab fa-vuejs"></i>
-            <i class="fab fa-sass"></i>
-            <i class="fab fa-js"></i>
+        <div class="row" id="technology" align="center">
+          <div class="col-12">
+            <i><img src="assets/arduino.png" class="techIcon" alt="Arduino"></i>
+            <i><img src="assets/jquery.png" class="techIcon" alt="jQuery"></i>
+            <i><img src="assets/materialize.png" class="techIcon" alt="Materialize"></i>
+            <i><img src="assets/boostrap.png" class="techIcon" alt="Bootstrap"></i>
+            <i><img src="assets/babel.png" class="techIcon" alt="Babel"></i>
+            <i><img src="assets/mocha.png" class="techIcon" alt="Mocha"></i>
+            <i><img src="assets/chai.png" class="techIcon" alt="Chai"></i>
+            <i><img src="assets/firebase.png" class="techIcon" alt="Firebase"></i>
+            <i><img src="assets/ajax.png" class="techIcon" alt="Ajax"></i>
+            <i><img src="assets/ecma.png" class="techIcon" alt="ECMA6"></i>
+            <i><img src="assets/3ds.png" class="techIcon" alt="3DS"></i>
+            <i><img src="assets/solidworks.png" class="techIcon" alt="Solidworks"></i>
+            <i><img src="assets/nodejs.png" class="techIcon" alt="Nodejs"></i>
+            <i><img src="assets/js.png" class="techIcon" alt="JS"></i>
+            <i><img src="assets/sass.png" class="techIcon" alt="Sass"></i>
+            <i><img src="assets/vue.png" class="techIcon" alt="Vue"></i>
+            <i><img src="assets/npm.png" class="techIcon" alt="NPM"></i>
+            <i><img src="assets/git.png" class="techIcon" alt="git"></i>
+            <i><img src="assets/html5.png" class="techIcon" alt="html5"></i>
+            <i><img src="assets/css.png" class="techIcon" alt="css"></i>
+          </div>
          </div>
       </div>
     </div>
   </section>
   <!--Work-->
-  <section class="container-fluid">
-    <div class="row">
+  <section class="container-fluid" id="portfolioImg">
+    <div class="row" align="center">
+      <h1 class="sectionHeader">My work</h1>
       <div class="col-4 card work">
         <img class="projectImg" src="assets/2.jpg" alt="Dear Santa">
       </div>
@@ -78,7 +94,7 @@
         <img class="projectImg" src="assets/4.jpg" alt="HP">
       </div>
     </div>
-    <div class="row">
+    <div class="row" align="center">
       <div class="col-4 card work">
         <img class="projectImg" src="assets/5.jpg" alt="Instagram">
       </div>
@@ -104,19 +120,20 @@
           <button id="submit" type="submit">Submit</button>
         </form>
       </div>
-      <div class="col-3 infoCard">
+      <div class="col-5">
           <p id="myNameIs">Dayra Alvarez</p>
           <p><i class="fas fa-phone-square"></i>  +052 044 33 1964 2981</p>
           <p><i class="fas fa-envelope-square"></i>  dayra.g.alvarez@gmail.com</p>
           <p><i class="fas fa-map-marker myInfo"></i>  Guadalajara, Jalisco. Mexico</p>
           <button id="downloadButton" download="resume.pdf">Download Resume</button>
       </div>
-      <div class="col-3">
+      <div class="col-2">
         <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
         <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
         <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
         <a href="https://www.instagram.com/fonsequiche/?hl=es-la" target="_blank"><i class="fab fa-instagram socialMedia"></i></a>
         <a href="https://medium.com/@dayraalvarez" target="_blank"><i class="fab fa-medium socialMedia"></i></a>
+        <a href="https://dayra-alvarez.tumblr.com/" target="_blank"><i class="fab fa-tumblr-square socialMedia"></i></a>
       </div>
     </div>
   </section>
@@ -128,6 +145,6 @@
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
-crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </html>

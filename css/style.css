@@ -1,4 +1,5 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
 }
@@ -165,7 +166,6 @@ li:hover {
 #aboutMe {
     align-content: center;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
-    background-color: #fcdbdb;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -181,8 +181,12 @@ li:hover {
     margin-top: 10px; 
 }
 
+.techIcon {
+    width: 6vh;
+}
+
 /*Work*/
-.work {
+#portfolioImg {
     align-content: center;
 }
 
