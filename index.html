@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dayra Alvarez</title>
   <link rel="icon" href="assets/bee1.png"></link>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -42,36 +43,38 @@
   <!--About me-->
   <section id="aboutMe" class="container-fluid">
     <div class="row">
-      <div class"col-12">
-        <p class="aboutFirst">  Having an Industrial Design degree, being a passionate of illustration and a technology enthusiastic, 
-            i found the way to make the things i love the most to converge in unique and creative websites.
-        <p class="aboutText">  What i enjoy about my job is trying to find the best creative solutions, concepts and elements
-            to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
-        <p class="aboutText">When you love what you do, you give the best of yourself!</p>  
+      <div class"col-12" id="aboutMargin">
+        <div id="aboutSquare">
+          <p class="aboutFirst">  Having an Industrial Design degree, being a passionate of illustration and a technology enthusiastic, 
+              i found the way to make the things i love the most to converge in unique and creative websites.
+          <p class="aboutText">  What i enjoy about my job is trying to find the best creative solutions, concepts and elements
+              to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
+          <p class="aboutText">When you love what you do, you give the best of yourself!</p>  
+        </div>
+        <br>
+        <div id="technology">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-git"></i>
+            <i class="fab fa-node-js"></i>
+            <i class="fab fa-npm"></i>
+            <i class="fab fa-vuejs"></i>
+            <i class="fab fa-sass"></i>
+            <i class="fab fa-js"></i>
+         </div>
       </div>
-      <br>
     </div>
-     <div class="row" >Technolgies
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-git"></i>
-        <i class="fab fa-node-js"></i>
-        <i class="fab fa-npm"></i>
-        <i class="fab fa-vuejs"></i>
-        <i class="fab fa-sass"></i>
-        <i class="fab fa-js"></i>
-     </div>
   </section>
   <!--Work-->
   <section class="container-fluid">
     <div class="row">
-      <div class="col-4">Proyect
+      <div class="col-4 card work">
         <img class="projectImg" src="assets/dummy.png" alt="">
       </div>
-      <div class="col-4">Proyect
+      <div class="col-4 card work">
         <img class="projectImg" src="assets/dummy.png" alt="">
       </div>
-      <div class="col-4">Proyect
+      <div class="col-4 card work">
         <img class="projectImg" src="assets/dummy.png" alt="">
       </div>
     </div>
@@ -80,7 +83,7 @@
   <section class="container-fluid" id="contactSection">
     <!--Contact form-->
     <div class="row">
-      <div class="col-6" id="leftSide">
+      <div class="col-5" id="leftSide">
         <p id="contactHeader">Contact me:</p>
         <div class="alert">Your message has been sent</div>
         <form class="col-6" id="contactForm" action="">
@@ -90,20 +93,20 @@
           <button id="submit" type="submit">Submit</button>
         </form>
       </div>
-      <div class="col-3">
-          <p>Dayra Alvarez</p>
+      <div class="col-3 infoNow">
+          <p id="myNameIs">Dayra Alvarez</p>
           <p>+052 044 33 1964 2981</p>
           <p>Guadalajara, Jalisco. Mexico</p>
-          <p>dayra.g.alvarez@gmail.com</p>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
-        <i class="fab fa-dribbble-square"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-medium"></i>
+          <p class="myInfo" >dayra.g.alvarez@gmail.com</p>
+          <button id="downloadButton">Download Resume</button>
       </div>
       <div class="col-3">
-        <button id="downloadButton">Download Resume</button>
-      </div>
+          <i class="fab fa-linkedin socialMedia"></i>
+          <i class="fab fa-github socialMedia"></i>
+          <i class="fab fa-dribbble-square socialMedia"></i>
+          <i class="fab fa-instagram socialMedia"></i>
+          <i class="fab fa-medium socialMedia"></i>
+        </div>
     </div>
   </section>
   <!--Footer-->
