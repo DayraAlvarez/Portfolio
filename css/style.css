@@ -1,44 +1,43 @@
 * {
     margin: 0%;
     padding: 0%;
-    align-content: center;
 }
 
 #splash{
-    position:absolute; /*Si se quita ya no aparece el splash*/
-    top:0; /*Si se quita ya no aparece el splash*/
-    left:0;  /*Al parecer, no hace diferencia*/
-    bottom:0; /*Si se quita ya no aparece el splash*/
-    width:100%; /*Ancho del splash*/
-    height: 100vh;
+    background-color: white;
     background-image: url('../assets/cover.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; /*Contain respeta el tamaño original de la imagen*/
-    background-color: white;
+    bottom:0; /*Si se quita ya no aparece el splash*/
+    height: 100vh;
+    left:0;  /*Al parecer, no hace diferencia*/
+    position:absolute; /*Si se quita ya no aparece el splash*/
+    top:0; /*Si se quita ya no aparece el splash*/
+    width:100%; /*Ancho del splash*/
     z-index: 10; /*Al parecer, no hace diferencia*/
 }
 
 /*Inicia navbar*/
 #navbar {
     background: rgba(0, 0, 0, 0.9);
-    overflow: hidden;
     box-shadow: -5px 2px 12px black;
+    overflow: hidden;
 }
 
 #logo {
-    width: 7vh;
-    padding-top: 5px;
     float: left;
     margin-left: 10px;
+    padding-top: 5px;
+    width: 7vh;
 }
 
 .brand {
     color:white;
     float: left;
     font-family: Helvetica;
-    text-decoration: none;
     padding: 16px;
+    text-decoration: none;  
 }
 
 .burger-menu {
@@ -261,6 +260,7 @@ input {
     border: none;
     background-color: #d33069;
     color:white;
+    cursor: pointer;
 }
 
 #submit:hover {
@@ -284,6 +284,7 @@ input {
     color: white;
     padding: 10px 10px;
     border:none;
+    cursor: pointer;
 }
 
 .socialMedia {
