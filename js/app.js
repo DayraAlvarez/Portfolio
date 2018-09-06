@@ -33,6 +33,18 @@ var message = getInputVal('message');
 
 //Save message
 saveMessage(name, email, message);
+
+//Show alert
+document.querySelector('.alert').style.display = 'block';
+
+//Hide alert after 3 seconds
+setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+},3000);
+
+//Clear form
+document.getElementById('contactForm').reset();
+
 }
 
 //Function to get form values
