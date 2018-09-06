@@ -5,12 +5,12 @@ $(document).ready(function () {
     }, 2000);
 });
 
-//--Dropdown navbar menu
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+var config = {
+    apiKey: "AIzaSyAwTBAeP408SCZN6FD50NP6SkTW6Mu8BvY",
+    authDomain: "dayrafolio.firebaseapp.com",
+    databaseURL: "https://dayrafolio.firebaseio.com",
+    projectId: "dayrafolio",
+    storageBucket: "dayrafolio.appspot.com",
+    messagingSenderId: "352703885079"
+  };
+  firebase.initializeApp(config);
