@@ -41,11 +41,11 @@
 }
 
 .burger-menu {
-    margin-right: 15px;
-    float: right;
     color: white;
-    text-decoration: none;
+    float: right;
     font-family: Helvetica;
+    margin-right: 15px;
+    text-decoration: none;
 }
 
 .burger-menu:hover {
@@ -55,11 +55,11 @@
 
 nav ul li {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 17px;
     position: relative;
     text-decoration: none;
-    padding: 16px 17px;
 }
 
 li:hover {
@@ -79,21 +79,21 @@ li:hover {
 
 
 /*Cover*/
-#cover {
-    z-index: -1;
+#cover {  
     background-image: url(../assets/cover.gif);
-    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: contain;
     height: 100vh;
     position: relative;
+    width: 100%;
+    z-index: -1;
 }
 
 #bee {
+    cursor: pointer;
     height: 12vh;
     position: relative;
-    cursor: pointer;
     transform: translateX(-50%) translateY(-75%);
 
     /* Safari 4.0 - 8.0 */
@@ -130,12 +130,12 @@ li:hover {
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
     background-color: black;
-    color: #fff;
-    text-align: center;
     border-radius: 6px;
+    color: #fff;
     padding: 5px 0;
+    text-align: center;
+    visibility: hidden;
 
     /* Position the tooltip */
     position: absolute;
@@ -163,24 +163,23 @@ li:hover {
 }
 
 #aboutMe {
-    font-family: Arial, Helvetica, sans-serif;
     align-content: center;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.4);
     background-color: #fcdbdb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .aboutFirst {
-    margin-top: 3vh;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
+    margin-top: 3vh; 
 }
 
 .aboutText {
-    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
+    margin-top: 10px; 
 }
-
 
 /*Work*/
 .work {
@@ -188,8 +187,8 @@ li:hover {
 }
 
 .projectImg {
-    width: 35vh;
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.6);
+    width: 35vh;
 }
 
 .card {
@@ -202,11 +201,11 @@ li:hover {
 }
 
 #contactHeader {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0%;
-    margin-bottom: 6%;
-    font-size: 18px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 6%;
+    margin-top: 0%;
 }
 
 #contactForm {
@@ -221,46 +220,46 @@ li:hover {
 }
 
 input {
-    border:none;
     background-color: rgba(255, 255, 255, 0.9);
-    height: 3vh;
+    border:none;
     border-radius: 1px;
+    height: 3vh;
 }
 
 .alert {
-    text-align: center;
-    padding: 10px;
     background: #79c879;
     color: white;
-    margin-bottom: 10px;
     display: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 #name {
-    width: 90%;
     margin-bottom: 9px;
+    width: 90%;
 }
 
 #email {
-    width: 90%;
     margin-bottom: 25px;
+    width: 90%;
 }
 
 #message {
-    width: 90%;
-    margin-bottom: 27px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 1px;
+    margin-bottom: 27px;
+    width: 90%;
 }
 
 #submit {
-    width: 40%;
-    margin-bottom: 20px;
-    padding: 10px 10px;
-    border: none;
     background-color: #d33069;
+    border: none;
     color:white;
     cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    width: 40%;
 }
 
 #submit:hover {
@@ -281,25 +280,25 @@ input {
 
 #downloadButton {
     background-color: #d33069;
-    color: white;
-    padding: 10px 10px;
     border:none;
+    color: white;
     cursor: pointer;
+    padding: 10px 10px;
 }
 
 .socialMedia {
     font-size: 4vh;
-    margin-top: 4vh;
     margin-left: 2vh;
+    margin-top: 4vh; 
 }
 
 /*Footer*/
 footer {
     background: rgba(0, 0, 0, 0.9);
     color: white;
-    font-size: 2vh;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 12px;
+    font-size: 2vh;
     height: 6vh;
+    padding-top: 12px;
+    text-align: center;
  }
