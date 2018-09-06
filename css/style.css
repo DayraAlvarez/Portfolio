@@ -28,7 +28,7 @@
 
 #logo {
     width: 7vh;
-    padding-top: 3px;
+    padding-top: 5px;
     float: left;
     margin-left: 10px;
 }
@@ -83,7 +83,7 @@ li:hover {
 #cover {
     z-index: -1;
     background-image: url(../assets/cover.gif);
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
