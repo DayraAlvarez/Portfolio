@@ -263,7 +263,7 @@ input {
 }
 
 #submit:hover {
-    background-color: #c9365b;
+    background-color:#a82550;
     color:white;
 }
 
@@ -286,10 +286,18 @@ input {
     padding: 10px 10px;
 }
 
+#downloadButton:hover {
+    background-color: #a82550;
+}
+
 .socialMedia {
     font-size: 4vh;
     margin-left: 2vh;
     margin-top: 4vh; 
+}
+
+.socialMedia:hover {
+    color: #a82550;
 }
 
 /*Footer*/
