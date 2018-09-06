@@ -218,7 +218,7 @@ li:hover {
 #leftSide {
     background: rgba(0, 0, 0, 0.9);
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4);  
-    color: white:  
+    color: white;  
 }
 
 input {
@@ -293,7 +293,7 @@ input {
 }
 
 /*Footer*/
- footer {
+footer {
     background: rgba(0, 0, 0, 0.9);
     color: white;
     font-size: 2vh;
