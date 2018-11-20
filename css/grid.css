@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
     <div class="col-6">Content Right</div>
   </div>
 </div>
-**/
+
 
 * {
     margin: 0;
@@ -30,21 +30,21 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
     margin: 0 auto;
 }
 
-/** Hack de clearfix **/
+/** Hack de clearfix *
 .row::after, .row::before {
     content:"";
     display:table;
     clear: both;
 }
 
-[class *='col-'] { /*Todas las clases que comiencen con col- */
+[class *='col-'] { /*Todas las clases que comiencen con col- 
     float: left;
     min-height: 1em;
-    /**gutters**/
+    /**gutters**
     padding: 1em;
 }
 
-/** 100/12*columnas **/
+/** 100/12*columnas *
 .col-1{ width:8.33%; }
 .col-2{ width:16.66%; }
 .col-3{ width:25%; }
