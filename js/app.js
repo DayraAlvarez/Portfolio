@@ -1,8 +1,8 @@
 //Splash
 $(document).ready(function () {
     setTimeout(function () {
-        $('#splash').fadeOut(400);
-    }, 2000);
+        $('#splash').fadeOut(600);
+    }, 3000);
 });
 
 //Firebase API

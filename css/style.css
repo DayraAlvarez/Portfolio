@@ -18,7 +18,7 @@
     z-index: 10; /*Al parecer, no hace diferencia*/
 }
 
-/*Inicia navbar*/
+/*Navbar*/
 .navbar {
     background: #2d2a2d;
     box-shadow: 0px 2px 12px black;
@@ -55,7 +55,7 @@ li:hover {
     width: 100%;
 }
 
-/*Cover*/
+/*Cover
 #cover {  
     background-image: url(../assets/cover.gif);
     background-position: center;
@@ -65,8 +65,9 @@ li:hover {
     position: relative;
     width: 100%;
     z-index: -1;
-}
+}*/
 
+/*Animacion*/
 #bee {
     cursor: pointer;
     height: 12vh;
@@ -152,17 +153,10 @@ li:hover {
     width: 100%;
 }
 
-.contactColumn {
-    background: rgba(0, 0, 0, 0.9);
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4);  
-    color: white;  
-}
-
 input {
     background-color: rgba(255, 255, 255, 0.9);
     border:none;
     border-radius: 1px;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4); 
     height: 3vh;
 }
 
@@ -188,7 +182,6 @@ input {
 #message {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 1px;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4); 
     margin-bottom: 27px;
     width: 90%;
 }
@@ -196,7 +189,6 @@ input {
 #submit {
     background-color: #d33069;
     border: none;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4); 
     color:white;
     cursor: pointer;
     margin-bottom: 20px;
@@ -209,22 +201,12 @@ input {
     color:white;
 }
 
-#myNameIs {
-    font-size: 4vh;
-    margin-bottom: 5px;
-    margin-top: 1vh;
-}
-
-.myInfo {
-    margin-bottom: 30px;
-}
-
 #downloadButton {
     background-color: #d33069;
     border:none;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 10.4); 
     color: white;
     cursor: pointer;
+    text-decoration: none;
     padding: 10px 10px;
 }
 

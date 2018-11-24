@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Dayra Alvarez</title>
   <link rel="icon" href="assets/bee1.png"></link>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/grid.css">
 </head>
@@ -24,16 +23,16 @@
         <a href="#"><li>UX/UI</li></a>
         <a href="#"><li>Front end</li></a>
         <a href="#"><li>Illustration</li></a>
-        <a href="#"><li>Contact</li></a>
+        <a href="#contact"><li>Contact</li></a>
       </div>
   </div>
   <!--Cover-->
-  <div id="cover"></section>
+  <!--<div id="cover"></section>
       <a><img id="bee" src="assets/10.png" alt="Bee"></a>
       <a><img id="bee" src="assets/10.png" alt="Bee"></a>
-    </div>
+    </div>-->
   <!--About me-->
-    <div>
+    <div class="first container">
       <h1>About me</h1>
       <div>
           <p>What i enjoy about my job is trying to find the best creative solutions, concepts and elements
@@ -44,27 +43,13 @@
   <!--Work-->
       <h1 class="sectionHeader">My work</h1>
       <div>
-        <img class="projectImg" src="assets/2.jpg" alt="Dear Santa">
+        <img src="assets/2.jpg" alt="Dear Santa">
       </div>
-      <div>
-        <img class="projectImg" src="assets/3.jpg" alt="Labkar">
-      </div>
-      <div>
-        <img class="projectImg" src="assets/4.jpg" alt="HP">
-      </div>
-      <div>
-        <img class="projectImg" src="assets/5.jpg" alt="Instagram">
-      </div>
-      <div>
-        <img class="projectImg" src="assets/dummy.png" alt="Dummie">
-      </div>
-      <div>
-        <img class="projectImg" src="assets/dummy.png" alt="Dummie">
-      </div>
+  <!--Firebase, can't touch this..dum dum dum dum..can't touch this!-->
   <!--Contact-->
-  <section class="container-fluid" id="contactSection">
+  <section id="contactSection">
     <!--Contact form-->
-    <div class="row">
+    <div id="contact" class="row">
       <div class="col-5" id="contactColumn">
         <p id="contactHeader">Contact me:</p>
         <div class="alert">Your message has been sent</div>
@@ -75,14 +60,14 @@
           <button id="submit" type="submit">Submit</button>
         </form>
       </div>
-      <div class="col-5">
-          <p id="myNameIs">Dayra Alvarez</p>
+      <div></div>
+          <p>Dayra Alvarez</p>
           <p>+052 044 33 1964 2981</p>
           <p>dayra.g.alvarez@gmail.com</p>
           <p>Guadalajara, Jalisco. Mexico</p>
-          <button id="downloadButton" download="resume.pdf">Download Resume</button>
+          <a id="downloadButton" href="download/../assets/resume.pdf" download="Resume-Dayra-Alvarez" target="_blank">View resume</a>
       </div>
-      <div class="col-2">
+      <div>
         <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
         <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
         <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
@@ -97,7 +82,6 @@
     <p>Dayra Alvarez Portfolio 2018</p>
   </footer>
 </body>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
         crossorigin="anonymous"></script>
