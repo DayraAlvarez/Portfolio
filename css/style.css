@@ -67,7 +67,7 @@ li:hover {
     z-index: -1;
 }*/
 
-/*Animacion*/
+/*Animation*/
 #bee {
     cursor: pointer;
     height: 12vh;
@@ -170,11 +170,13 @@ input {
 }
 
 #name {
+    border-radius: 1px;
     margin-bottom: 12px;
     width: 90%;
 }
 
 #email {
+    border-radius: 1px;
     margin-bottom: 25px;
     width: 90%;
 }
