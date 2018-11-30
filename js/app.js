@@ -2,7 +2,7 @@
 $(document).ready(function () {
     setTimeout(function () {
         $('#splash').fadeOut(600);
-    }, 3000);
+    }, 1000);
 });
 
 //Firebase API
@@ -61,3 +61,12 @@ function saveMessage (name, email, message){
     });
 }
 
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
