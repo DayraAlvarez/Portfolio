@@ -164,7 +164,7 @@ footer {
 
  /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #2d2a2d;
     overflow: hidden;
 }
 
@@ -174,14 +174,14 @@ footer {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 17px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
+
     color: white;
 }
 
@@ -192,7 +192,6 @@ footer {
 
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
-    float: left;
     overflow: hidden;
 }
 
@@ -274,6 +273,5 @@ footer {
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
-    text-align: left;
   }
 }
