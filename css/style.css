@@ -168,6 +168,10 @@ footer {
     overflow: hidden;
 }
 
+div a img {
+    height: 40px;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -181,7 +185,6 @@ footer {
 
 /* Add an active class to highlight the current page */
 .active {
-
     color: white;
 }
 
