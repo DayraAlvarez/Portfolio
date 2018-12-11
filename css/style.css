@@ -25,9 +25,13 @@
   }
 
 div a img {
-    height: 30px;
+    height: 14px;
     left: 0;
     top: 0;
+}
+
+div a {
+    height: 100%;
 }
   
   .topnav a {
