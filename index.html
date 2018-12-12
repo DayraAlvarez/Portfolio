@@ -12,15 +12,13 @@
 </head>
 <body>
   <!--Splash-->
-  <div id="splash">
-    <div class="loader"></div>
-  </div>
+  <div id="splash"></div>
   <!--Navbar-->
   <div class="topnav" id="topnavDrop">
-      <a href="#home" class="active"><img src="assets/logo.png" alt=""></a>
-      <a href="#about">About</a>
-      <div class="dropdown">
-        <button class="dropbtn">Work 
+    <a href="#home" class="active"><img src="assets/logo.png" alt=""></a>
+    <a href="#about">About</a>
+    <!--<div class="dropdown">
+          <button class="dropbtn">Work 
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -28,77 +26,101 @@
           <a href="#uxui">UX/UI</a>
           <a href="#frontend">Front end</a>
         </div>
-      </div> 
-      <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
+      </div>--> 
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" id="home" onclick="myFunction()">&#9776;</a>
+  </div>
   <!--About me-->
-    <div class="first container">
-      <h1 id="about">About me</h1>
-      <div>
+  <div class="container-fluid first">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="about">About me</h2>
+        <div>
           <p>What i enjoy about my job is trying to find the best creative solutions, concepts and elements
-          to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
+            to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
           <p>When you love what you do, you give the best of yourself!</p>  
+        </div>
       </div>
     </div>
+  </div>
   <!--Work-->
-  <div id="work">
-    <div id="ilustration">
-      <div>Ilustration</div>
-      <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  <div class="container-fluid" id="work">
+    <div class="row">
+      <div class="col-12" id="ilustration">
+        <h2>Ilustration</h2>
+        <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </div>
       </div>
-    </div>
-    <div id="uxui">
-      <div>UX/UI</div>
-      <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      <div class="row">
+        <div class="col-12" id="uxui">
+          <h2>UX/UI</h2>
+          <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="frontend">
-      <div>Frontend</div>
-      <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      </div>
+      <div class="row">
+        <div  class="col-12" id="frontend">
+          <h2>Front end</h2>
+          <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </div>
+        </div>
+      </div>     
     </div>
   </div>
   <!--Firebase, can't touch this..dum dum dum dum..can't touch this!-->
   <!--Contact-->
-  <section id="contactSection">
+  <section class="container-fluid">
     <!--Contact form-->
     <div id="contact" class="row">
-      <div class="col-5" id="contactColumn">
+      <div class="col-12">
         <p id="contactHeader">Contact me:</p>
         <div class="alert">Your message has been sent</div>
-        <form class="col-6" id="contactForm" action="">
+        <form id="contactForm" action="">
           <input id="name" onfocus="this.value=''" type="text" value="Name" required>
           <input id="email" onfocus="this.value=''" type="email" value="Email" required>
           <textarea id="message" onfocus="this.value=''"name="" rows="5">Message</textarea>
           <button id="submit" type="submit">Submit</button>
         </form>
       </div>
-          <p>Dayra Alvarez</p>
-          <p>+052 044 33 1964 2981</p>
-          <p>dayra.g.alvarez@gmail.com</p>
-          <p>Guadalajara, Jalisco. Mexico</p>
-      </div>
-      <a id="downloadButton" href="download/../assets/resume.pdf" download="Resume-Dayra-Alvarez" target="_blank">View resume</a>
     </div>
   </section>
+  <!--Personal info-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>Dayra Alvarez</p>
+        <p>+052 044 33 1964 2981</p>
+        <p>dayra.g.alvarez@gmail.com</p>
+        <p>Guadalajara, Jalisco. Mexico</p>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <a id="downloadButton" href="download/../assets/resume.pdf" download="Resume-Dayra-Alvarez" target="_blank">View resume</a></div>
+        </div>
+      </div>
+  </div>
   <!--Social media-->
-  <div>
-    <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
-    <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
-    <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
-    <a href="https://www.instagram.com/fonsequiche/?hl=es-la" target="_blank"><i class="fab fa-instagram socialMedia"></i></a>
-    <a href="https://medium.com/@dayraalvarez" target="_blank"><i class="fab fa-medium socialMedia"></i></a>
-    <a href="https://dayra-alvarez.tumblr.com/" target="_blank"><i class="fab fa-tumblr-square socialMedia"></i></a>
+  <div class="container-fluid" class="socialMedia">
+    <div class="row">
+      <div class="col-12">
+        <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
+        <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
+        <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
+        <a href="https://www.instagram.com/fonsequiche/?hl=es-la" target="_blank"><i class="fab fa-instagram socialMedia"></i></a>
+        <a href="https://medium.com/@dayraalvarez" target="_blank"><i class="fab fa-medium socialMedia"></i></a>
+        <a href="https://dayra-alvarez.tumblr.com/" target="_blank"><i class="fab fa-tumblr-square socialMedia"></i></a>
+      </div> 
+    </div>
   </div>
   <!--Footer-->
   <footer>
