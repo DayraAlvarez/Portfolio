@@ -2,7 +2,7 @@
 $(document).ready(function () {
     setTimeout(function () {
         $('#splash').fadeOut(600);
-    }, 1000);
+    }, 4000);
 });
 
 //Firebase API
