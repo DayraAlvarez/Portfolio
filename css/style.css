@@ -30,7 +30,7 @@ html {
     width: 100%;
   }
 
-.rightmenu {
+.topnav-right {
   float: right;
 }
 
@@ -94,18 +94,19 @@ div a {
 }
   
 .topnav a:hover, .dropdown:hover .dropbtn {
-    color: #a82550;
+    color: white;
+    background-color: gray;
 }
   
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: gray;
   color: black;
 }
   
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
