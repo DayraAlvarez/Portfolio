@@ -93,7 +93,7 @@ div a {
   text-align: left;
 }
   
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav-right a:hover, .dropdown:hover .dropbtn {
     color: white;
     background-color: gray;
 }
