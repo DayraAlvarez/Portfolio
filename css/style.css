@@ -30,10 +30,8 @@ html {
     width: 100%;
   }
 
-div a img {
-    height: 14px;
-    left: 0;
-    top: 0;
+.rightmenu {
+  float: right;
 }
 
 div a {
@@ -44,10 +42,13 @@ div a {
   float: left;
   display: block;
   color: #4F5962;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.rightmenu{
+  float: right;
 }
 
 .active {
@@ -214,7 +215,7 @@ input {
   }
   
 #downloadButton {
-    background-color: #d33069;
+    background-color: #2d2a2d;
     border:none;
     color: white;
     cursor: pointer;
@@ -223,16 +224,17 @@ input {
 }
 
 #downloadButton:hover {
-    background-color: #a82550;
+    background-color: #2d4F5962;
 }
   
 .socialMedia {
     font-size: 4vh;
     margin-bottom: 6vh; 
+    color:#2d2a2d;
 }
   
 .socialMedia:hover {
-    color: #a82550;
+    color: #4F5962;
 }
   
 /*Footer*/
@@ -247,3 +249,6 @@ footer {
     position: fixed;
     bottom: 0px;
 }
+
+
+
