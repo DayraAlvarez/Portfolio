@@ -16,11 +16,6 @@ body {
   z-index: 10; /*Al parecer, no hace diferencia*/
 }
 
-h1,h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-}
-
 h1 {
   font-weight: 400;
   font-size: 21px;
@@ -30,10 +25,6 @@ h2 {
   font-weight: 200;
   font-size:16px;
   padding-bottom: 10px;
-}
-
-.first {
-  padding-top: 15vh;
 }
 
 nav {
@@ -74,22 +65,13 @@ nav {
 .brand {
   margin-left: 15px;
   float: left;
-  font-weight: bolder;
   margin-top: 20px;
   text-decoration: none;
   color:black;
 }
 
-footer {
-  background: black;
-  color: white;
-  font-size: 1.5vh;
-  height: 4vh;
-  width: 100%;
-  text-align: center;
-  padding-top: 1vh;
-  position: fixed;
-  bottom: 0px;
+.first {
+  padding-top: 15vh;
 }
 
 .opaque {
@@ -97,8 +79,8 @@ footer {
   padding: 5em;
 }
 
-section {
-  padding-bottom: 10vh;
+.row {
+  margin-left: 15px;
 }
 
 section img{
@@ -161,4 +143,16 @@ p {
 
 .socialMedia:hover {
   color: #4F5962;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 1.5vh;
+  height: 4vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 1vh;
+  position: fixed;
+  bottom: 0px;
 }
