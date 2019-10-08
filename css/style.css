@@ -17,14 +17,20 @@ body {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 21px;
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 250;
   font-size:16px;
   padding-bottom: 10px;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
 }
 
 nav {
@@ -75,6 +81,8 @@ nav {
 button a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 .opaque {
@@ -115,6 +123,8 @@ p {
   font-weight: bold;
 }
 
+/*Contact*/
+
 #myNameIs {
   font-family: 'Pacifico', cursive;
   font-size: 4vh;
@@ -126,27 +136,14 @@ p {
   margin-bottom: 30px;
 }
 
-#downloadButton {
-  background-color: #2d2a2d;
-  border:none;
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px 10px;
-}
-
-#downloadButton:hover {
-  background-color: #2d4F5962;
-}
-
 .socialMedia {
   font-size: 4vh;
   margin-bottom: 6vh; 
-  color:#2d2a2d;
+  color: black;
 }
 
 .socialMedia:hover {
-  color: #4F5962;
+  opacity: 0.8;
 }
 
 footer {
