@@ -1,102 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dayra Alvarez Portfolio</title>
-  <link rel="icon" href="assets/bee1.png"></link>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dayra Alvarez Portfolio</title>
+	<link rel="icon" href="assets/bee1.png"></link>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-  <!--Splash-->
+     <!--Splash-->
   <div id="splash"></div>
-  <!--Navbar-->
-  <div class="topnav" id="topnavDrop">
-    <a href="#home" class="active"><img src="" alt="">Dayra Alvarez</a>
-    <div class="topnav-right">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-  <!--About me-->
-  <div class="container-fluid first" class="socialMedia">
+    <nav class="container-fluid topnav">
+		<div class="row">
+            <a class="brand" href="index.html">Dayra Alvarez Portfolio</a>
+		    <img class="hide-on-desktop burger-menu" src="assets/index.svg" alt="">
+            <div class="hide-on-mobile menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+		</div>
+	</nav>
+<!--First section-->
+ <section class="container first">
     <div class="row">
-      <div class="col-12">
-        <h2 id="about">About me</h2>
-          <div>
-            <p>Trying to find the best creative solutions, concepts and elements
-              to add an special and unique value to every project, looking forward to bring the best experience to users. </p>
+        <h1>About</h1>
+        <br>
+        <h2>Trying to find the best creative solutions, concepts and elements
+            to add an special and unique value to every project, looking forward to bring the best experience to users. </h2>
+        <div class="col-4">
+            <h1>E-comerce Mobile App</h1>
+            <img src="assets/1.png" alt="">
+            <p>Description</p>
+            <button id="sing-up"><a target="_blank" href="https://invis.io/8QU9R58KJ9R">See Prototype</a></button>
+        </div>
+        <div class="col-4">
+            <h1>E-comerce Mobile App</h1>
+            <img src="assets/1.png" alt="">
+            <p>Description</p>
+            <button id="sing-up"><a target="_blank" href="https://invis.io/8QU9R58KJ9R">See Prototype</a></button>
+            </div>
+        <div class="col-4">
+            <h1>E-comerce Mobile App</h1>
+            <img src="assets/1.png" alt="">
+            <p>Description</p>
+            <button id="sing-up"><a target="_blank" href="https://invis.io/8QU9R58KJ9R">See Prototype</a></button>
+        </div>     
+    </div>
+    </section>
+    <!--Second section-->
+    <!--Personal info-->
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <p>Dayra Alvarez</p>
+            <p>+052 044 33 1964 2981</p>
+            <p>dayra.g.alvarez@gmail.com</p>
+            <p>Guadalajara, Jalisco. Mexico</p>
           </div>
-      </div> 
-    </div>
-  </div>
-  <!--Work-->
-  <div class="container-fluid" id="work">
-    <div class="row">
-      <div class="col-12" id="ilustration">
-        <h2>UX/UI</h2>
-           <img class="imageCard" src="assets/1.png" alt="">
-           <a  target="_blank" href="https://invis.io/8QU9R58KJ9R">E-comerce mobile</a>
+          <div class="row">
+            <div class="col-12">
+              <a id="downloadButton" href="download/../assets/resume.pdf" download="Resume-Dayra-Alvarez" target="_blank">Download Resume</a></div>
+            </div>
+          </div>
+      </div>
+      <!--Social media-->
+      <div class="container-fluid" class="socialMedia">
+        <div class="row">
+          <div class="col-12">
+            <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
+            <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
+            <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
+            <a href="https://medium.com/@dayraalvarez" target="_blank"><i class="fab fa-medium socialMedia"></i></a>
+          </div> 
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <img class="imageCard" src="" alt="">
-      </div>
-      <div class="col-4">
-        <img class="imageCard" src="" alt="">
-      </div>
-      <div class="col-4">
-        <img class="imageCard" src="" alt="">
-      </div>
-    </div>
-  </div>
-  <!--Illustration-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12" id="uxui">
-        <h2>Illustration</h2>
-        <div>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </div>
-      </div>
-    </div>
-  </div>  
-  <!--Personal info-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <p>Dayra Alvarez</p>
-        <p>+052 044 33 1964 2981</p>
-        <p>dayra.g.alvarez@gmail.com</p>
-        <p>Guadalajara, Jalisco. Mexico</p>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <a id="downloadButton" href="download/../assets/resume.pdf" download="Resume-Dayra-Alvarez" target="_blank">Download Resume</a></div>
-        </div>
-      </div>
-  </div>
-  <!--Social media-->
-  <div class="container-fluid" class="socialMedia">
-    <div class="row">
-      <div class="col-12">
-        <a href="https://www.linkedin.com/in/dayra-alvarez-frontend-developer/" target="_blank"><i class="fab fa-linkedin socialMedia"></i></a>
-        <a href="https://github.com/DayraAlvarez" target="_blank"><i class="fab fa-github socialMedia"></i></a>
-        <a href="https://dribbble.com/Dayra" target="_blank"><i class="fab fa-dribbble-square socialMedia"></i></a>
-        <a href="https://medium.com/@dayraalvarez" target="_blank"><i class="fab fa-medium socialMedia"></i></a>
-      </div> 
-    </div>
-  </div>
-  <!--Footer-->
-  <footer>
-    <p>Dayra Alvarez Portfolio 2019</p>
-  </footer>
+    <footer><p>Dayra Alvarez Portfolio 2019</p></footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
         crossorigin="anonymous"></script>

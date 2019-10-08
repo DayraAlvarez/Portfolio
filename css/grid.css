@@ -19,20 +19,21 @@
     margin: 0 auto;
 }
 
+/** Hack de clearfix **/
 .row::after, .row::before {
     content:"";
     display:table;
     clear: both;
 }
 
-[class *='col-'] {
+[class *='col-'] { /*Todas las clases que comiencen con col- */
     float: left;
     min-height: 1em;
-    /*gutters*/
+    /**gutters**/
     padding: 1em;
 }
 
-/*100/12*columnas */
+/** 100/12*columnas **/
 .col-1{ width:8.33%; }
 .col-2{ width:16.66%; }
 .col-3{ width:25%; }
@@ -50,5 +51,13 @@
 @media all and (max-width:576px){
     [class *='col-'] {
        width: 100%;
+    }
+    .hide-on-mobile {
+      display: none;
+  }
+}
+@media (min-width:576px){
+    .hide-on-desktop {
+        display: none;
     }
 }
