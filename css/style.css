@@ -39,21 +39,19 @@ nav {
   margin-top: 15px;
   margin-right: 15px;
   float: right;
-}
-
-.burger-menu {
-  float: right;
+  height: 30px;
 }
 
 .menu {
-  float:rigth;
   text-align: right;
 }
+
 .menu li {
   display:inline-block;
   height:56px;
   padding:20px 10px;
 }
+
 .menu a {
   text-decoration: none;
   color:black;
@@ -74,6 +72,11 @@ nav {
   padding-top: 15vh;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 .opaque {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5em;
@@ -81,6 +84,7 @@ nav {
 
 .row {
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 section img{
@@ -102,7 +106,7 @@ button:hover {
 }
 
 p {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .product-name {
