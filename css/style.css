@@ -123,6 +123,11 @@ p {
   font-weight: bold;
 }
 
+#about {
+  background-color:#ebebeb;
+  padding-bottom: 6vh;
+}
+
 /*Contact*/
 
 #myNameIs {
