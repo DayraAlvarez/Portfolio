@@ -123,7 +123,7 @@ p {
   font-weight: bold;
 }
 
-#about {
+#about, #contact {
   background-color:#ebebeb;
   padding-bottom: 6vh;
 }
