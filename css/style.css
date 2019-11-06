@@ -123,9 +123,14 @@ p {
   font-weight: bold;
 }
 
-#about, #contact {
+#about {
   background-color:#ebebeb;
   padding-bottom: 6vh;
+}
+
+#work {
+  background-color:#444444;
+  color: white;
 }
 
 /*Contact*/
