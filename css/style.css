@@ -21,8 +21,12 @@ h3 {
 }
 
 p {
-  padding-bottom: 1vh;
+  padding-bottom: 0.7vh;
   padding-top: 0.7vh;
+}
+
+footer p {
+  padding-top: 0;
 }
 
 .about {
@@ -46,7 +50,7 @@ button {
   color: white;
   border:none;
   padding: 10px;
-  width: 100;
+  width: 33vw;
   text-align: center;
   cursor:pointer;
 }
