@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 600;
   font-size:16px;
   padding-bottom: 2vh;
 }
@@ -21,8 +21,16 @@ h3 {
 }
 
 p {
-  padding-bottom: 0.5vh;
+  padding-bottom: 0.7vh;
+  padding-top: 0.7vh;
 }
+
+.about {
+  font-weight: 300;
+  font-size:16px;
+  padding-bottom: 2vh;
+}
+
 
 .row {
   margin-left: 15px;
@@ -38,7 +46,7 @@ button {
   color: white;
   border:none;
   padding: 10px;
-  width: 300px;
+  width: 100;
   text-align: center;
   cursor:pointer;
 }
@@ -144,13 +152,6 @@ button a {
 }
 
 /*Contact*/
-
-#myNameIs {
-  font-family: 'Pacifico', cursive;
-  font-size: 4vh;
-  margin-bottom: 5px;
-  margin-top: 1vh;
-}
 
 .myInfo {
   margin-bottom: 30px;
